@@ -2,7 +2,8 @@
   "name": "ableton-js",
   "version": "3.6.1",
   "description": "Control Ableton Live from Node",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "Leo Bernard <admin@leolabs.org>",
   "license": "MIT",
   "repository": {
@@ -10,8 +11,7 @@
     "url": "https://github.com/leolabs/ableton-js.git"
   },
   "files": [
-    "**/*.js",
-    "**/*.d.ts",
+    "dist/**/*",
     "midi-script/*.py"
   ],
   "scripts": {
